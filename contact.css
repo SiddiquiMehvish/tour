@@ -1,0 +1,64 @@
+/* Hero Section */
+.hero {
+    position: relative;
+    width: 100%;
+    height: 500px; /* Adjust height to fit form */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.6); /* Dark overlay for readability */
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 800px;
+    width: 90%;
+}
+
+/* Contact Form */
+.contact-form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    max-width: 500px;
+}
+
+.contact-form input, 
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contact-form textarea {
+    height: 100px;
+}
+
+.contact-form button {
+    padding: 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.contact-form button:hover {
+    background: #0056b3;
+}
